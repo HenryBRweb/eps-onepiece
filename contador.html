@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Episode Counter</title>
+    <link rel="stylesheet" href="contador.css">
+</head>
+<body>
+    <div class="language-selector">
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="pt">Português</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+    <div class="container">
+        <h1 id="title">One Piece Episode Counter</h1>
+        <div id="counter">Loading...</div>
+        <div id="episode-selector">
+            <label for="episode-select" id="episode-label">Select an episode:</label>
+            <select id="episode-select"></select>
+            <button id="go-to-episode">Go</button>
+        </div>
+        <div id="selected-episode">Selected Episode: <span id="selected-episode-number">-</span></div>
+    </div>
+    <img class="modifica-image" src="imagens/foto-one-piece.png" alt="Luffy's Straw Hat">
+    <script src="contador.js"></script>
+</body>
+</html>
